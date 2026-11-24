@@ -1,11 +1,9 @@
 +++
 title = "About"
-description = "About Z's blog"
 template = "prose.html"
 
 [extra]
 title = "About"
-comment = false
 +++
 
 Hi, I'm Z. I like working at the intersection of humans and machines, making software that serves people, with a focus on ergonomics.

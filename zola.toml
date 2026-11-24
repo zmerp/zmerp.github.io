@@ -15,26 +15,27 @@ light_theme = "github-light"
 dark_theme = "github-dark"
 
 [extra]
-nav = [
-  { name = "posts", path = "/posts" },
-  { name = "about", path = "/about" },
-]
+color_scheme = "dark"
 
 name = "Z's blog"
-handle = "zmerp"
 links = [
   { name = "GitHub", icon = "github", url = "https://github.com/zmerp" },
   { name = "Email", icon = "email", url = "mailto:merp.zee@gmail.com" },
 ]
+nav = [
+  { name = "posts", path = "/posts" },
+  { name = "projects", path = "/projects" },
+  { name = "about", path = "/about" },
+]
 blog_section_path = "/posts"
 
 back_link_text = "back"
-color_scheme = "dark"
 footer_copyright = ""
-not_found_error_text = "404 Not Found"
-not_found_recover_text = "back to home"
 
+not_found_error_text = "404 Not Found"
+not_found_recover_text = "back_to_home()"
+
+date_format = "%Y-%m-%d"
 toc = true
 code_copy = true
-comment = true
 math = true
