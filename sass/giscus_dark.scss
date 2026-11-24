@@ -1,0 +1,17 @@
+@import url("https://giscus.app/themes/transparent_dark.css");
+
+$accent: #e06c6c;
+
+main {
+  --color-accent-fg: #{$accent};
+  --color-accent-emphasis: #{$accent};
+  --color-accent-muted: #{rgba($accent, 0.4)};
+  --color-accent-subtle: #{rgba($accent, 0.1)};
+
+  --color-btn-primary-bg: #{rgba($accent, 0.45)};
+  --color-btn-primary-hover-bg: #{rgba($accent, 0.55)};
+  --color-btn-primary-selected-bg: #{rgba($accent, 0.45)};
+  --color-btn-primary-disabled-bg: #{rgba($accent, 0.3)};
+
+  --color-social-reaction-bg-reacted-hover: #{rgba($accent, 0.15)};
+}

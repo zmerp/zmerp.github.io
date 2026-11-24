@@ -1,0 +1,40 @@
+base_url = "https://zmerp.github.io"
+title = "Z's blog"
+description = "Z's blog"
+theme = "serene"
+compile_sass = true
+
+[markdown]
+external_links_no_follow = true
+external_links_no_referrer = true
+github_alerts = true
+
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[extra]
+nav = [
+  { name = "posts", path = "/posts" },
+  { name = "about", path = "/about" },
+]
+
+name = "Z's blog"
+handle = "zmerp"
+links = [
+  { name = "GitHub", icon = "github", url = "https://github.com/zmerp" },
+  { name = "Email", icon = "email", url = "mailto:merp.zee@gmail.com" },
+]
+blog_section_path = "/posts"
+
+back_link_text = "back"
+color_scheme = "dark"
+footer_copyright = ""
+not_found_error_text = "404 Not Found"
+not_found_recover_text = "back to home"
+
+toc = true
+code_copy = true
+comment = true
+math = true
