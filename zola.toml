@@ -1,8 +1,10 @@
 base_url = "https://zmerp.github.io"
 title = "Z's blog"
 description = "Z's blog"
+author = "Z (zmerp)"
 theme = "serene"
 compile_sass = true
+generate_feeds = true
 
 [markdown]
 external_links_no_follow = true
@@ -30,7 +32,7 @@ nav = [
 blog_section_path = "/posts"
 
 back_link_text = "back"
-footer_copyright = ""
+footer_copyright = "© 2026 zmerp"
 
 not_found_error_text = "404 Not Found"
 not_found_recover_text = "back_to_home()"
